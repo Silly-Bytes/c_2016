@@ -227,6 +227,8 @@ the tests are, the more robust the end code will be.
 
 ## Learn functional programming
 
+![](functional.jpg)
+
 Learning to think functionally will improve your C code despite C being an
 imperative language, you'll stop using mutable global state, and all the kind of
 stuff that prevent your software from being multi thread safe.
