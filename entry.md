@@ -49,6 +49,16 @@ compiled on Windows machines, [CMake](https://cmake.org/) rocks!
 ![](cmake.png)
 
 
+## The standard C library is your friend
+
+You can't get any better at writing C code if you're not familiar enough with
+the [Standard C library
+(libc)](https://www.gnu.org/software/libc/manual/html_node/index.html), in
+particular I know a lot of people that don't even know the libc mechanism for
+error reporting, so be sure you [know
+it](https://www.gnu.org/software/libc/manual/html_node/index.html#toc-Error-Reporting-1).
+
+
 ## Use a linter
 
 A *linter* in case you don't know, is a program that will statically check the
@@ -112,7 +122,7 @@ you'll be a happy programmer.
 ## Use a control version system
 
 You might think you can get away keeping a ton of directories for each version
-of your program if it is small but that will, eventually, byte you!
+of your program if it is small, but that will, eventually, byte you!
 
 A control version system will give you a few super powers for collaboration,
 version restoring, multi branching, proper history tracking, back up and so much
