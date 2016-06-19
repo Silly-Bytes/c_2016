@@ -12,6 +12,8 @@ Go a head and read both articles right now!
 
 Here I would like to point out some things about tooling.
 
+![](tools.jpg)
+
 
 ## Use building tools (Make, Autotools, CMake)
 
