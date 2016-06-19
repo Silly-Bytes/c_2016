@@ -17,6 +17,8 @@ Here I would like to point out some things about tooling.
 
 ## Use building tools (Make, Autotools, CMake)
 
+![](build.jpe)
+
 This might be obvious for most C programmers, but I've seen quite a lot of
 people, novices specially, copying and pasting the compilation command on each
 iteration.
