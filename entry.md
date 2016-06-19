@@ -83,6 +83,31 @@ Yeah sure, you can fill up you code with `printf` calls for debugging and pretty
 much get away with it, but 
 
 
+## Use a control version system
+
+You might think you can get away keeping a ton of directories for each version
+of your program if it is small but that will, eventually, byte you!
+
+A control version system will give you a few super powers for collaboration,
+version restoring, multi branching, proper history tracking, back up and so much
+more.
+
+You could use [CVS](http://www.nongnu.org/cvs/) or [SVN
+(Subversion)](https://subversion.apache.org/), but why to do so if you can use a
+much more powerful control version system like
+[Mercurial](https://www.mercurial-scm.org/wiki/) or even better
+[Git](https://git-scm.com/).
+
+![](bitbucket.png)
+![](github.png)
+
+On top of that, even if you're working alone in a project and won't collaborate
+with more people, using a repository hosting service like
+[Bitbucket](https://bitbucket.org/) or [Github](https://github.com/) is a great
+way to always have a backup of your code. In the future if more people join to
+your project, collaboration will be frictionless.
+
+
 ## Learn functional programming language
 
 Learning to think functionally will improve your C code despite C being an
