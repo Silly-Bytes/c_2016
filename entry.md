@@ -144,10 +144,45 @@ way to always have a backup of your code. In the future if more people join to
 your project, collaboration will be frictionless.
 
 
-## Documentation
+## Automated documentation
+
+![](doc.jpg)
+
+> Documentation is like sex: when it is good, it is very good; and when it is
+> bad, it is better than nothing
+> --Dick Brandon
+
+Nobody likes to write and maintain documentation so keep it as automatized as
+possible!
+
+Using tools like [Doxygen](http://www.stack.nl/~dimitri/doxygen/) will provide
+you with some amazing tricks: documentation generation from source code, multi
+target format documentation (HTML, LATEX, PDF, TROFF Man pages, PostScript,
+etc).
+
+Remember tu use your abilities writing *Make* recipes to automate the
+documentation process as well!
+
+Always write documentation in ways that every possible aspect of it can be
+automatized. Don't write documentation using MS Word!! (god dammit!). Use
+[Markdown](https://daringfireball.net/projects/markdown/syntax),
+[AsciiDoc](http://www.methods.co.nz/asciidoc/),
+[DocBook](http://www.docbook.org/).
+
+If you really want a WYSIWYG tool, [Libre Office](https://www.libreoffice.org/)
+has a CLI interface that allows you to generate PDF files, so you can add in
+your *Make* recipe something like:
+
+    document.pdf: document.odt
+        libreoffice --convert-to pdf $<
+
+You can even automatize some graphs generation using
+[DOT](http://www.graphviz.org/doc/info/lang.html).
 
 
 ## Unit testing
+
+![](test.jpg)
 
 In a [nutshell](https://en.wikipedia.org/wiki/Unit_testing) *unit testing* is
 writing pieces of code that will use the functions of your software and compare
