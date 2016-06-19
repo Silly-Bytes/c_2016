@@ -1,5 +1,7 @@
 # How to write C in 2016
 
+![](shot.png)
+
 Matt wrote a very interesting and totally recommended post about [*how to C (as
 of 2016)](https://matt.sh/howto-c). Keith Thompson wrote later a very detailed
 and rather useful
@@ -26,6 +28,8 @@ comfortable [writing](http://mrbook.org/blog/tutorials/make/) and
 *makefiles*, so the compilation process can be described like in a recipe and
 triggered by issuing the `$ make` command.
 
+![](make.png)
+
 Using [make](https://www.gnu.org/software/make/) alone by writing *makefiles*
 will take you pretty far, but for larger software you might want to automate
 even further all the software ecosystem, so your code can examine the target
@@ -42,6 +46,8 @@ starts to get out of hand, taking the effort to use them is worth it!
 If your code is needs not only to be Posix systems portable, but also get
 compiled on Windows machines, [CMake](https://cmake.org/) rocks!
 
+![](cmake.png)
+
 
 ## Use a linter
 
@@ -50,6 +56,8 @@ A *linter* in case you don't know, is a program that will statically check the
 vulnerabilities from common programming mistakes and/or bad practices and any
 other general coding mistakes that can make your program leak memory, step on
 segmentation faults and the like.
+
+![](splintlogo.jpg)
 
 [Splint](http://www.splint.org/) is an awesome piece of software that will tell
 you a **lot** about what your code might be doing wrong.
