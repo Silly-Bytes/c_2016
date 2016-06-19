@@ -200,7 +200,7 @@ tu use your program and automatically check if it does what it's supposed to do.
 You can take this approach further by doing [Test Driven Development
 (TDD)](https://en.wikipedia.org/wiki/Test-driven_development).
 
-Automated tests is fundamental, if you want to write C code on 2016+, start
+Automated tests is fundamental, if you want to write C code in 2016+, start
 writing proper test right know! The world will end if you don't.
 
 You could write testing functions for your code by hand or use one of the great
