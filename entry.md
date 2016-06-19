@@ -97,6 +97,7 @@ responsibility that power comes with.
 
 Depending on what you're doing some other languages would probably fit better
 and give you extra abstraction in exchange of some perforce decrement. In most
-cases when you think you need C you probably can also do it well with Rust or Go
-(I recommend the former) and get the work done with great performance and low
-level management when needed.
+cases when you think you need C you probably can also do it well with
+[Rust](https://www.rust-lang.org/) or [Go](https://golang.org/) (I recommend the
+former) and get the work done with great performance and low level management
+when needed.
