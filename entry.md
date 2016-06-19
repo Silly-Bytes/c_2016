@@ -74,10 +74,30 @@ code more robust.
 You can tune the level of paranoia with the *splint* argument options: `-weak`,
 `-standard`, `-cheks` and `-strict`
 
+
 ## Valgrind
+
+![](valgrind.png)
+
+[Valgrind](http://valgrind.org/) is a profiling software with a few neat tricks
+up the sleeve. In contrast to *splint*, it will use your **executable program**
+and will help you finding memory leaks, make your programs faster and more
+correct.
+
+When compiling your program use the `-g` compiler flag so extra debugging
+information is include in the executable.
+
+Then you can execute you program with Valgrind like this:
+
+    $ valgrind foobar arg1 arg2
+
+That will use the `Memcheck` tool, one of multiple [Valgrind
+tools](http://valgrind.org/docs/manual/manual.html).
 
 
 ## Use a debugger
+
+![](gdb.png)
 
 Yeah sure, you can fill up you code with `printf` calls for debugging and pretty
 much get away with it, but 
@@ -138,6 +158,8 @@ powerful language, but with a great power comes a great responsibility. You
 don't need to **avoid it**, instead use C when you need and can take advantage
 of its power and you can afford the effort it takes handling all the extra
 responsibility that power comes with.
+
+![](rust.png)
 
 Depending on what you're doing some other languages would probably fit better
 and give you extra abstraction in exchange of some perforce decrement. In most
