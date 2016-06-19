@@ -100,7 +100,13 @@ tools](http://valgrind.org/docs/manual/manual.html).
 ![](gdb.png)
 
 Yeah sure, you can fill up you code with `printf` calls for debugging and pretty
-much get away with it, but 
+much get away with it, but knowing how to use a debugger is always a valuable
+skill.
+
+Some debugging sessions will be far more easy with
+[GDB](https://www.gnu.org/software/gdb/) than a bunch of `printf` lines all
+around, and some times it will not be the case. But for those cases it is,
+you'll be a happy programmer.
 
 
 ## Use a control version system
@@ -128,7 +134,7 @@ way to always have a backup of your code. In the future if more people join to
 your project, collaboration will be frictionless.
 
 
-## Learn functional programming language
+## Learn functional programming
 
 Learning to think functionally will improve your C code despite C being an
 imperative language, you'll stop using mutable global state, and all the kind of
@@ -147,7 +153,7 @@ functional programming language. Specially, [blow your mind with
 Haskell!](https://www.haskell.org/)
 
 
-## Don't write in C
+## ~Don't~ write in C
 
 Eric Raymond [said](http://www.catb.org/esr/faqs/hacker-howto.html):
 
@@ -161,9 +167,12 @@ responsibility that power comes with.
 
 ![](rust.png)
 
-Depending on what you're doing some other languages would probably fit better
+Depending on what you're doing, some other languages would probably fit better
 and give you extra abstraction in exchange of some perforce decrement. In most
 cases when you think you need C you probably can also do it well with
 [Rust](https://www.rust-lang.org/) or [Go](https://golang.org/) (I recommend the
 former) and get the work done with great performance and low level management
 when needed.
+
+C is not a monster you have to hide from, it's just a (wonderful) tool. You have
+to pick the appropriate tool depending on what you're doing.
