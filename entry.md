@@ -121,6 +121,8 @@ you'll be a happy programmer.
 
 ## Use a control version system
 
+![](branch.jpg)
+
 You might think you can get away keeping a ton of directories for each version
 of your program if it is small, but that will, eventually, byte you!
 
