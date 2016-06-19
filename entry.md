@@ -154,7 +154,7 @@ your project, collaboration will be frictionless.
 
 ## Automated documentation
 
-![](doc.jpg)
+![](doc.png)
 
 > Documentation is like sex: when it is good, it is very good; and when it is
 > bad, it is better than nothing
