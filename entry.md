@@ -10,7 +10,7 @@ with some extra notes about Matt's post.
 
 Go a head and read both articles right now!
 
-Here I would like to point out some other things about tooling.
+Here I would like to point out some things about tooling.
 
 
 ## Use building tools (Make, Autotools, CMake)
@@ -81,6 +81,25 @@ You can tune the level of paranoia with the *splint* argument options: `-weak`,
 
 Yeah sure, you can fill up you code with `printf` calls for debugging and pretty
 much get away with it, but 
+
+
+## Learn functional programming language
+
+Learning to think functionally will improve your C code despite C being an
+imperative language, you'll stop using mutable global state, and all the kind of
+stuff that prevent your software from being multi thread safe.
+
+If you work on embedded software, you're probably writing in C. Considering that
+even relatively cheap embedded hardware today have more than one core,
+parallelism is pretty important and functional programing mind set will help a
+lot to do it well.
+
+![](haskell.png)
+
+There are quite a few multi paradigm languages out there, like python, but if
+I have to give a recommendation I would say: Learn a pure
+functional programming language. Specially, [blow your mind with
+Haskell!](https://www.haskell.org/)
 
 
 ## Don't write in C
